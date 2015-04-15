@@ -38,3 +38,15 @@ let label = "The value is "
 let someValue = 111
 let myLabel = label + String(someValue)
 println(myLabel)
+
+// To include values in string
+let apples = 3
+let oranges = 5
+let totalFruits = "I have \(apples + oranges) fruits!"
+println(totalFruits)
+// Now with type casting
+let pi = 3.14159
+let radius = 10
+// cast radius to Double is mandatory
+let circleLenght = (2 * pi) * Double(radius)
+println("Circle \(circleLenght)")
