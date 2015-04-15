@@ -84,3 +84,18 @@ switch colour {
 default: println("No colour defined")
 }
 
+// Array of arrays and for-in
+let interestingNumbers = [
+    "Square": [1,4,8,9,16,25],
+    "Prime": [2,3,5,7,11,13],
+    "Fibonacci": [1,1,2,3,5,8]
+]
+var largest = 0
+for (numberType, numberValues) in interestingNumbers {
+    for numberValue in numberValues {
+        if numberValue > largest {
+            largest = numberValue
+        }
+    }
+}
+println("Largest is \(largest)")
