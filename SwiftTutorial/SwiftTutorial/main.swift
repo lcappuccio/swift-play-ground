@@ -99,3 +99,17 @@ for (numberType, numberValues) in interestingNumbers {
     }
 }
 println("Largest is \(largest)")
+
+// A simple while
+var x = 0
+while x < 10 {
+    print("x = \(x)\t")
+    x++
+}
+print("\n")
+// Or
+var y = 0
+do {
+    print("y = \(y)\t")
+    y++
+} while y < 10
