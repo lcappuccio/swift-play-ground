@@ -62,3 +62,16 @@ println("Now have \(jobs.count) jobs")
 for (workerName,job) in jobs {
     println("Worker: \(workerName), Job: \(job)")
 }
+
+// Optional values and nil
+var optionalName: String? = "Leo"
+var greeting = "Hello"
+if let name = optionalName {
+    println("\(greeting) \(name)")
+}
+// Now set to nil
+optionalName = nil
+if let name = optionalName {
+    println("\(greeting) \(name)")
+}
+
