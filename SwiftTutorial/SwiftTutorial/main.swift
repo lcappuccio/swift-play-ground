@@ -133,3 +133,31 @@ for var i = 0; i < 4; i++ {
     secondLoop += i
 }
 println("secondLoop is \(secondLoop)")
+
+// Functions and closures
+func sayHi(name: String, title: String) -> String {
+    return "Hello \(title)\(name) "
+}
+println(sayHi("Leo", "Mr."))
+// Can return also tuples (nice!)
+func calculateStatistics(values: [Int]) -> (min: Int, max: Int, sum: Int, average: Float) {
+    var min = values[0]
+    var max = values[0]
+    var sum = 0
+    var average: Float = 0
+    
+    for value in values {
+        if value > max {
+            max = value
+        }
+        if value < min {
+            min = value
+        }
+        sum += value
+        // Note the type casting :O
+        average = Float(sum) / Float(values.count)
+    }
+    return (min, max, sum, average)
+}
+let statistics = calculateStatistics([3,6,8,5,3,15])
+println("min: \(statistics.min)\tmax: \(statistics.max)\tsum: \(statistics.sum)\taverage: \(statistics.average)")
