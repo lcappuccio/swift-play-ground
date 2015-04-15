@@ -10,7 +10,7 @@ import Foundation
 
 println("Hello, World!")
 
-// SIMPLE VALUES
+// Simple values
 var myVariable = 42
 // Cast to String
 println("Using var " + String(myVariable))
@@ -31,7 +31,6 @@ println("Integer \(explicitDouble)")
 // Create a Float constant
 let explicitFloat: Float = 4
 println("Float \(explicitFloat)")
-
 
 // Types are never implicitly converted, to do so convert explicitly
 let label = "The value is "
@@ -59,3 +58,7 @@ var jobs = ["John": "Plumber", "Steve": "Mechanic"]
 println("Have \(jobs.count) jobs")
 jobs["Leo"] = "Nerd"
 println("Now have \(jobs.count) jobs")
+// And a for cycle
+for (workerName,job) in jobs {
+    println("Worker: \(workerName), Job: \(job)")
+}
