@@ -113,3 +113,23 @@ do {
     print("y = \(y)\t")
     y++
 } while y < 10
+print("\n")
+
+// Some nice for(s)
+var firstLoop = 0
+for i in 0..<4 {
+    firstLoop += i
+}
+println("firstLoop is \(firstLoop)")
+// "..<" omits upper value, "..." includes both values
+var otherFirstLoop = 0
+for i in 0...4 {
+    otherFirstLoop += i
+}
+println("otherFirstLoop is \(otherFirstLoop)")
+// Or
+var secondLoop = 0
+for var i = 0; i < 4; i++ {
+    secondLoop += i
+}
+println("secondLoop is \(secondLoop)")
