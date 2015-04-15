@@ -75,3 +75,12 @@ if let name = optionalName {
     println("\(greeting) \(name)")
 }
 
+// Play with case, default is mandatory
+let colour = "Red"
+switch colour {
+    case "Yellow": println("Yellow is nice")
+    case "Black": println("Black is elegant")
+    case "Red": println("Red is hot")
+default: println("No colour defined")
+}
+
