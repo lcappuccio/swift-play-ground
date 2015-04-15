@@ -50,3 +50,12 @@ let radius = 10
 // cast radius to Double is mandatory
 let circleLenght = (2 * pi) * Double(radius)
 println("Circle \(circleLenght)")
+
+// Now play with arrays
+var shoppingList = ["fish", "water", "bread", "ham"]
+println("Second item to buy is \(shoppingList[1])")
+// Now a dictionary
+var jobs = ["John": "Plumber", "Steve": "Mechanic"]
+println("Have \(jobs.count) jobs")
+jobs["Leo"] = "Nerd"
+println("Now have \(jobs.count) jobs")
