@@ -8,10 +8,15 @@
 
 class AnotherClass {
     
-    var someNumber = 0
+    var someNumber: Int
     
-    func simpleIncrementer() -> String {
+    // Class constructor
+    init(someNumber: Int) {
+        self.someNumber = someNumber
+    }
+    
+    func simpleIncrementer() -> Int {
         someNumber += 1
-        return "\(someNumber)"
+        return someNumber
     }
 }
