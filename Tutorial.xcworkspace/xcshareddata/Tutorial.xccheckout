@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>485A4F4D-5E32-4183-A6C2-4E12AE1AD4EB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tutorial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>39A862DD802987B5457703FDE971EA4B72701554</key>
+		<string>https://github.com/lcappuccio/SwiftPlayGround.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tutorial.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>39A862DD802987B5457703FDE971EA4B72701554</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lcappuccio/SwiftPlayGround.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>39A862DD802987B5457703FDE971EA4B72701554</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>39A862DD802987B5457703FDE971EA4B72701554</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftPlayGround</string>
+		</dict>
+	</array>
+</dict>
+</plist>
