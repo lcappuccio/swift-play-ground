@@ -161,3 +161,25 @@ func calculateStatistics(values: [Int]) -> (min: Int, max: Int, sum: Int, averag
 }
 let statistics = calculateStatistics([3,6,8,5,3,15])
 println("min: \(statistics.min)\tmax: \(statistics.max)\tsum: \(statistics.sum)\taverage: \(statistics.average)")
+
+// Nested function
+func returnNumber() -> Int {
+    var y = 1
+    func add() {
+        y += 1
+    }
+    add()
+    return y
+}
+println("Nested function value is \(returnNumber())")
+
+// Functions can return functions
+func incrementBuilder() -> (Int -> Int) {
+    func increment(number: Int) -> Int {
+        return 1 + number
+    }
+    return increment
+}
+var incrementer = incrementBuilder()
+var incrementedNumber = incrementer(5)
+println("incrementer \(incrementedNumber)")
