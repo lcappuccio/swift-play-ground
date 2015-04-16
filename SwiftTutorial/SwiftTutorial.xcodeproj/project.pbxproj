@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B36739C81AE0392F00DDF39D /* anotherclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36739C71AE0392F00DDF39D /* anotherclass.swift */; };
 		B367F6751ADF023F00F05473 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B367F6741ADF023F00F05473 /* main.swift */; };
+		B393E2F11AE074C000B300DA /* SwiftTutorialTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393E2F01AE074C000B300DA /* SwiftTutorialTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +28,20 @@
 		B36739C71AE0392F00DDF39D /* anotherclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anotherclass.swift; sourceTree = "<group>"; };
 		B367F6711ADF023F00F05473 /* SwiftTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		B367F6741ADF023F00F05473 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B393E2EC1AE074C000B300DA /* SwiftTutorialTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTutorialTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B393E2EF1AE074C000B300DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B393E2F01AE074C000B300DA /* SwiftTutorialTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B367F66E1ADF023F00F05473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B393E2E91AE074C000B300DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				B367F6731ADF023F00F05473 /* SwiftTutorial */,
+				B393E2ED1AE074C000B300DA /* SwiftTutorialTest */,
 				B367F6721ADF023F00F05473 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				B367F6711ADF023F00F05473 /* SwiftTutorial */,
+				B393E2EC1AE074C000B300DA /* SwiftTutorialTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +76,23 @@
 				B36739C71AE0392F00DDF39D /* anotherclass.swift */,
 			);
 			path = SwiftTutorial;
+			sourceTree = "<group>";
+		};
+		B393E2ED1AE074C000B300DA /* SwiftTutorialTest */ = {
+			isa = PBXGroup;
+			children = (
+				B393E2F01AE074C000B300DA /* SwiftTutorialTest.swift */,
+				B393E2EE1AE074C000B300DA /* Supporting Files */,
+			);
+			path = SwiftTutorialTest;
+			sourceTree = "<group>";
+		};
+		B393E2EE1AE074C000B300DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B393E2EF1AE074C000B300DA /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +115,23 @@
 			productReference = B367F6711ADF023F00F05473 /* SwiftTutorial */;
 			productType = "com.apple.product-type.tool";
 		};
+		B393E2EB1AE074C000B300DA /* SwiftTutorialTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B393E2F41AE074C000B300DA /* Build configuration list for PBXNativeTarget "SwiftTutorialTest" */;
+			buildPhases = (
+				B393E2E81AE074C000B300DA /* Sources */,
+				B393E2E91AE074C000B300DA /* Frameworks */,
+				B393E2EA1AE074C000B300DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTutorialTest;
+			productName = SwiftTutorialTest;
+			productReference = B393E2EC1AE074C000B300DA /* SwiftTutorialTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +142,9 @@
 				ORGANIZATIONNAME = "Leonardo Cappuccio";
 				TargetAttributes = {
 					B367F6701ADF023F00F05473 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B393E2EB1AE074C000B300DA = {
 						CreatedOnToolsVersion = 6.3;
 					};
 				};
@@ -112,9 +162,20 @@
 			projectRoot = "";
 			targets = (
 				B367F6701ADF023F00F05473 /* SwiftTutorial */,
+				B393E2EB1AE074C000B300DA /* SwiftTutorialTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B393E2EA1AE074C000B300DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B367F66D1ADF023F00F05473 /* Sources */ = {
@@ -123,6 +184,14 @@
 			files = (
 				B36739C81AE0392F00DDF39D /* anotherclass.swift in Sources */,
 				B367F6751ADF023F00F05473 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B393E2E81AE074C000B300DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B393E2F11AE074C000B300DA /* SwiftTutorialTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +290,38 @@
 			};
 			name = Release;
 		};
+		B393E2F21AE074C000B300DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftTutorialTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B393E2F31AE074C000B300DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftTutorialTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -241,6 +342,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B393E2F41AE074C000B300DA /* Build configuration list for PBXNativeTarget "SwiftTutorialTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B393E2F21AE074C000B300DA /* Debug */,
+				B393E2F31AE074C000B300DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

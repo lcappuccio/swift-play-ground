@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B393E2EB1AE074C000B300DA"
+               BuildableName = "SwiftTutorialTest.xctest"
+               BlueprintName = "SwiftTutorialTest"
+               ReferencedContainer = "container:SwiftTutorial.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
