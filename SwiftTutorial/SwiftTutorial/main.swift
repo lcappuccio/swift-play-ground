@@ -183,3 +183,9 @@ func incrementBuilder() -> (Int -> Int) {
 var incrementer = incrementBuilder()
 var incrementedNumber = incrementer(5)
 println("incrementer \(incrementedNumber)")
+
+// Class instance
+var anotherClass = AnotherClass()
+for var i = 0; i < 10; i++ {
+    println("Class is now \(anotherClass.simpleIncrementer())")
+}
